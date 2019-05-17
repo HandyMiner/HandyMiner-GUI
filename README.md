@@ -1,4 +1,4 @@
-#HandyMiner GUI Setup Guide
+# HandyMiner GUI Setup Guide
 
 0. [**DOWNLOAD COMPILED GUI BUILD**](https://github.com/HandshakeAlliance/HandyMiner-GUI/releases)
 
@@ -15,7 +15,7 @@ Windows:
 2. Install [nodejs ~v10](https://nodejs.org/en/)
 2a. (Windows Only) Install [docker](https://docs.docker.com/docker-for-windows/install/)
 
-##Miner Configuration:
+## Miner Configuration:
 
 ***It is critical to choose the right GPU, especially on a laptop!***
 
@@ -23,7 +23,7 @@ If you decide to mine on your "Intel HD Graphics" GPU: Your performance will gri
 Furthermore: The hashrate on an Intel-HD is probably comparable to CPU mining with HSD directly so please just use your AMD or NVIDIA dedicated GPUs if you desire using your laptop for simple tasks while mining. 
 Finally: Dont go expecting to do any crazy graphics rendering or gaming on your laptop while mining.
 
-##How do I find my GPUs?
+## How do I find my GPUs?
 
 Within the Miner GUI is a configuration panel specific to the GPUs you will use.
 Click the **Query GPU IDs** button to ask the system which cards are connected. 
@@ -31,7 +31,7 @@ Click the **Query GPU IDs** button to ask the system which cards are connected.
 Note: Most modern Laptops have 2 platforms. 0 or 1. We set to 0 by default. 
 If you dont see your AMD or NVIDIA GPU listed in the Query GPU response: Try the other platform by entering a different platform value in the 'platform' field and click **Query GPU IDs** again.
 
-##FAQ/GOTCHAS
+## FAQ/GOTCHAS
 
 1. **I changed my wallet or stratum password and now there are errors or my shares all fail.**
 The miner stratum doesnt deal with password (ultimately wallet) changes. 
