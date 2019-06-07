@@ -13,6 +13,7 @@ Windows:
 ```docker rm earthlabHSD```
 
 2. Install [nodejs ~v10](https://nodejs.org/en/)
+
 2a. (Windows Only) Install [docker](https://docs.docker.com/docker-for-windows/install/)
 
 ## Miner Configuration:
@@ -51,3 +52,12 @@ Awesome! If GUI sees an hsd node running locally we just use it. Make sure to ha
 ```
 ^^ Notice the **--coinbase-address** field: that's your wallet you'd like to mine to.
 Also note that we run with the **--index-tx=true** and **--index-address=true** flags for GUI. This allows us to show timelines and update the GUI when we win blocks.
+
+3. **How Do I access the Windows Docker Machine?**
+You can ssh in via your terminal (i use git bash).
+```winpty docker exec -it earthlabHSD bash```
+will ssh you into the docker machine's hsd folder (/usr/hsd). 
+
+4. **Can I run my dockerized HSD node outside the GUI?**
+You sure can. On your terminal::
+```winpty docker exec -i earthlabHSD sh -c "./run.sh" ts1q59...wkjv5g``` where ```ts1.....v5g``` is your wallet you'd like to mine to.
