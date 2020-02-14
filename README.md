@@ -1,3 +1,23 @@
+HANDYMINER-GUI
+2019 Alex Smith <alex.smith@earthlab.tech>
+
+**HandyMiner Support Telegram Channel:**
+[t.me/handshakemining](t.me/handshakemining)
+
+**Updates for GUI are prioritized behind the CLI. This will be updated soon.::**
+
+A simple GUI wrapper for the Blake2bSHA3 (Handshake) PoW OpenCL Miner
+to communicate with Handshake HSD via Stratum Mining, abstacting away the complexity of a CLI. 
+# Easy Installation
+       Easily installed on most rig configurations within minutes.
+       Simple GPU Configuration setup.
+       Nvidia GeForce 10хх, 16xx and 20xx series and AMD Radeon RX/Polaris/Vega cross-compatible.
+
+### HandyMiner Running with Dashboard Enabled
+
+![Imgur](https://i.imgur.com/86J3Bap.jpg)
+![Imgur](https://i.imgur.com/QRGJ6y4.jpg)
+
 # HandyMiner GUI Setup Guide
 
 0. [**DOWNLOAD COMPILED GUI BUILD**](https://github.com/HandshakeAlliance/HandyMiner-GUI/releases)
