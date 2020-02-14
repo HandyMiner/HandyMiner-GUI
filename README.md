@@ -4,7 +4,7 @@ HANDYMINER-GUI
 **HandyMiner Team Donation Address (HNS): hs1qwfpd5ukdwdew7tn7vdgtk0luglgckp3klj44f8**
 
 **HandyMiner Support Telegram Channel:**
-[t.me/handshakemining](t.me/handshakemining)
+[t.me/handshakemining](http://t.me/handshakemining)
 
 **Updates for GUI are prioritized behind the CLI. This will be updated soon.::**
 
